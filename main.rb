@@ -43,7 +43,6 @@ class Game
    end
   end
 
-
   def turn 
    while @player1.lives > 0 and @player2.lives > 0 do
     for player in @players
